@@ -1,3 +1,11 @@
 variable "bucket" {
-  default = "ssr-s3bucket-proj2"
+  type = string
+}
+
+variable "access_key"{
+  type = string
+}
+
+variable "secret_key"{
+  type = string
 }
